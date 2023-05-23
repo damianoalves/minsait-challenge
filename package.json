@@ -1,0 +1,34 @@
+{
+  "name": "minsait-challenge",
+  "version": "0.0.1",
+  "description": "A REST API project",
+  "private": true,
+  "type": "module",
+  "contributors": [
+    {
+      "name": "Damiano Alves",
+      "email": "damiano.alves@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damianoalves/minsait-challenge"
+  },
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "*",
+    "express": "^4.18.2",
+    "helmet": "*",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}
