@@ -14,7 +14,7 @@ services:
     depends_on:
       - mongodb
     networks:
-      - node-network
+      - network
 
   mongodb:
     image: mongo:latest
@@ -24,8 +24,8 @@ services:
     ports:
       - '27017:27017'
     networks:
-      - node-network
+      - network
 
 networks:
-  node-network:
+  network:
     driver: bridge
